@@ -1,0 +1,70 @@
+* {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: darkgray;
+    color: yellow;
+    padding-left: 8em;
+    padding-right: 8em;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4em;
+}
+
+.name {
+    font-size: 24px;
+}
+.links {
+    gap: 24px;
+}
+
+.titlecard {
+    display: flex;
+}
+.titletext {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    gap: 16px;
+}
+
+.titleimg {
+    display: flex;
+    flex: 1;
+    padding: 1em;
+}
+
+img {
+    width: 400px;
+}
+
+button {
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    color: yellow;
+    background: black;
+    padding: 8px;
+}
+
+.mission {
+    font-size: 36px;
+}
