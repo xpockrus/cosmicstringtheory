@@ -11,15 +11,15 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    color: yellow;
 }
 
 .top {
     display: flex;
     flex-direction: column;
+    color: yellow;
     background-color: darkgray;
     padding: 2em 8em 4em 8em;
-    margin: -2em -2em 0;
+    margin: -8px -1em 0;
 }
 
 .header {
