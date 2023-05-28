@@ -9,11 +9,13 @@ ul {
 
 body {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     background-color: darkgray;
     color: yellow;
     padding-left: 8em;
     padding-right: 8em;
+    max-width: 80em;
 }
 
 .top {
@@ -37,23 +39,25 @@ body {
 
 .titlecard {
     display: flex;
+    justify-content: space-between;
 }
 .titletext {
     display: flex;
     flex-direction: column;
     flex: 1;
-    justify-content: center;
+    justify-content: space-between;
     gap: 16px;
+    max-width: 400px;
 }
 
 .titleimg {
     display: flex;
     flex: 1;
-    padding: 1em;
 }
 
 img {
     width: 400px;
+    margin-left: auto;
 }
 
 button {
