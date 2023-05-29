@@ -27,6 +27,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 4em;
+
 }
 
 .name {
@@ -132,7 +133,7 @@ button {
     flex-direction: column;
     justify-content: center;
     margin: 0 15%;
-}
+    }
 
 .quoter {
     font-weight: 700;
