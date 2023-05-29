@@ -1,5 +1,5 @@
 * {
-    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 ul {
@@ -17,9 +17,9 @@ body {
     display: flex;
     flex-direction: column;
     color: yellow;
-    background-color: darkgray;
+    background-color: hsla(242, 94%, 13%);
     padding: 2em 8em 4em 8em;
-    margin: -8px -1em 0;
+    margin: -8px -2.5em 0;
 }
 
 .header {
@@ -52,6 +52,8 @@ body {
 .titleimg {
     display: flex;
     flex: 1;
+    border: solid yellow 2px;
+    border-radius: 24px;
 }
 
 img {
@@ -61,13 +63,130 @@ img {
 
 button {
     font-family: Roboto, sans-serif;
-    border: none;
+    border: solid yellow 1px;
     border-radius: 8px;
     color: yellow;
     background: black;
-    padding: 8px;
+    padding: 16px;
 }
 
 .mission {
     font-size: 36px;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 2em 8em 4em 8em;
+}
+
+.title-two {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 750px;
+    margin-bottom: 24px;
+}
+
+.student-bios {
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+    margin: 0 -16px
+}
+.student-name {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 16px;
+}
+
+.students {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 18%;
+    gap: 16px;
+}
+
+.student-img {
+    display: flex;
+    min-width: 200px;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    border: solid darkblue;
+    border-radius: 16px;
+
+}
+
+.section-three {
+    background-color: lightgray;
+    margin: 0 -2em;
+    padding: 4.5em 8em 4em 8em;
+}
+.quotes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 15%;
+}
+
+.quoter {
+    font-weight: 700;
+    align-self:last baseline;
+    margin-bottom: 16px;
+    margin-right: 16px;
+}
+.quote {
+    align-self:first baseline;
+    font-style: italic;
+    line-height: 1.25;
+}
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    padding: 4em;
+}
+
+.banner {
+    display: flex;
+    flex: auto;
+    max-width: 75%;
+    gap: 2em;
+    background-color: lightblue;
+    border-radius: 24px;
+    padding: 2em;
+    justify-content: space-around;
+}
+
+.banner-headline {
+    font-weight: 700;
+    font-size: 19px;
+    margin-bottom: 12px;
+}
+
+.banner-text {
+    max-width: 60%;
+}
+
+.banner-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: initial;
+}
+
+.footer {
+    background-color: rgb(44, 44, 112);
+    color: white;
+    font-size: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 -2em -4em;
+    padding: 3em;
 }
